@@ -1,0 +1,45 @@
+{
+  "name": "node-express-auth-service",
+  "version": "1.0.0",
+  "description": "A Node.js API for secure authentication using JWT, with user registration, email activation, and token-based authentication.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "star": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MarekSax/node-express-auth-service.git"
+  },
+  "author": "Marek Maciejewski",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MarekSax/node-express-auth-service/issues"
+  },
+  "homepage": "https://github.com/MarekSax/node-express-auth-service#readme",
+  "devDependencies": {
+    "@eslint/js": "^9.13.0",
+    "eslint": "^9.13.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.2.1",
+    "globals": "^15.11.0",
+    "nodemon": "^3.1.7",
+    "prettier": "^3.3.3"
+  },
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "chalk": "^5.3.0",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "http-status-codes": "^2.3.0",
+    "jsonwebtoken": "^9.0.2",
+    "nodemailer": "^6.9.15",
+    "pg": "^8.13.0",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.37.4",
+    "uuid": "^10.0.0"
+  }
+}
