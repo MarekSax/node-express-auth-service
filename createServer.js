@@ -11,6 +11,7 @@ export const createServer = () => {
   const app = express();
 
   const corsOptions = {
+    // origin needs to be changed to frontend url in production
     origin: '*',
     credentials: true,
   };
